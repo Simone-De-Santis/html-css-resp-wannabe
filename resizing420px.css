@@ -1,4 +1,14 @@
 @media screen and (max-width:420px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .container, .container.grey:nth-child(3) {
+        background-color:#f2f2cd;
+    }
+   
+    
     .row {
         width: 100vw;
         margin-left: auto;
@@ -9,7 +19,7 @@
       /* BLOCCO LEZIONI */
       #lezioni .row>.left,
       #lezioni .row>.right {
-        width: 95%;
+        width: 100%;
         float:none;
       }
       
@@ -29,7 +39,7 @@
       #steps .row>.central,
       #steps .row>.right {
         float: none;
-        width: 95%;
+        width: 100%;
       }
       
       #steps {
@@ -44,7 +54,7 @@
       #why .row>.first,
       #why .row>.second,
       #why .row>.third {
-        width: 95%;
+        width: 100%;
         margin-top: 80px;
       }
       
@@ -62,7 +72,7 @@
       }
       
       .container.grey {
-        background-color: #f9f9f9;
+        background-color: white;
       }
       
       img {
